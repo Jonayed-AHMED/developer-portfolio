@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
    
 }
 h1{
@@ -11,15 +12,19 @@ h1{
 
     }
 }
-section{
-    display: flex;
+.flexible-container{
+    display:flex;
+    margin-bottom: 200px;
+}
+p{
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
     padding-left: 10%;
 }
-.half-width image{
-    width: 80%;
+.half-width img{
+    width: 70%;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +38,40 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-position-x: 10px;
+}
+.experience-iteam{
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#highbred-training{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#body-weight-workout{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+
+}
+footer p{
+    text-align: center;
+    font-size: xx-small;
 }
