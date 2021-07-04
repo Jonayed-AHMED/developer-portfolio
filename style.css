@@ -11,7 +11,7 @@ h1{
         color: orange;
 
     }
-}
+
 .flexible-container{
     display:flex;
     margin-bottom: 200px;
@@ -70,8 +70,7 @@ p{
     border-image-slice: 1;
 }
 
-}
-footer p{
+footer p {
     text-align: center;
-    font-size: xx-small;
+    
 }
